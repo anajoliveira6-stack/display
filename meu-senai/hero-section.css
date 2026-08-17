@@ -1,35 +1,47 @@
 /* reset */
-*{ margin: 0;
+*{ margin:0;
+
   padding: 0;
   box-sizing: border-box;}
 
 
   body { background-color:aliceblue;
          width: 100vw;
-         height: 100vh;}
+         height: 100vh;
+         
+}
 
 /* estilizando utilizando uma calsse com o seletor */
 .content-header{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    margin:0 auto;
+    width: 50%;
     height: 33%;
     background-color:azure;
 }
 .content-hero{ display: flex;
-justify-content: center;
-align-items: center;}
+justify-content: space-between;
+align-items: center;
+height: 66%;
+
+margin: 0 auto;
+width: 50%;
+ }
 
 .banner-header{width:90% ;
             height: 90%;
-        background-color:plum;}
+        background-color:plum;
+    margin-top: 30px;}
 
 
-.content-hero-right, .content-hero-center, .content-hero-left{
+
+.box{
 border: 2px solid ;
-
+border-radius: 5px;
 width: 300px;
 height: 550px; 
-background-color: plum;
+background-color:plum;
  }
+
+
