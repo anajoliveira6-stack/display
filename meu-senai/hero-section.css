@@ -1,0 +1,24 @@
+/* reset */
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+
+  body { background-color:aliceblue;
+         width: 100vw;
+         height: 100vh;}
+
+/* estilizando utilizando uma calsse com o seletor */
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+    background-color:azure;
+}
+
+.banner-header{width:90% ;
+            height: 90%;
+        background-color:plum;}
+
