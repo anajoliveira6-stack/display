@@ -3,11 +3,17 @@
 
 .body-principal{width: 100vw; height: 83vh; margin-top: 8%; background-color: black;}
 
-.conteudo-pincipal__direita{display: flex;}
+.conteudo-pincipal__direita{display: flex; gap: 3%;}
 
-.conteudo-pincipal__direita--titulo{  display: block; text-align: center; height:200px; width: 700px;color:  black; }
+.titulo-article{display: flex; justify-content: space-around;}
+.conteudo-pincipal__direita--titulo{  display: block; text-align:start; height:200px; width: 700px;color:  black; margin-top: 10%; }
 
-.conteudo-principal__esquerda{ display:flex; height:  600px; width: 500px;  }
+
+.conteudo-principal__direita--bateria{display: flex; align-items: 200px;}
+
+.conteudo-principal__direita--carregador{display: block; align-items: center;}
+.conteudo-principal__esquerda{ display:flex; height:  600px; width: 500px; gap: 3%; }
+
 
 .conteudo-principal{ display: flex;
     align-items: self-start;
