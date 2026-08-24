@@ -1,3 +1,17 @@
 *{margin: 0; padding: 0; border-radius: border-box;}
 
-h1{ color: blueviolet;}
+
+.body-principal{width: 100vw; height: 83vh; margin-top: 8%; background-color: black;}
+
+.conteudo-pincipal__direita{display: flex;}
+
+.conteudo-pincipal__direita--titulo{  display: block; text-align: center; height:200px; width: 700px;color:  black; }
+
+.conteudo-principal__esquerda{ display:flex; height:  600px; width: 500px;  }
+
+.conteudo-principal{ display: flex;
+    align-items: self-start;
+    justify-content: start;
+    background-color: aqua   ;
+width: 1200px;height: 600px; border-radius: 2%; margin: auto; }
+
