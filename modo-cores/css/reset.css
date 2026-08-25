@@ -1,0 +1,9 @@
+*{margin: 0;
+    padding: 0;
+    border-radius: border-box;
+font-family: Helvetica, sans-serif;}
+
+html{    
+    scroll-behavior: smooth;
+    /* mesmo que o item fique maior que o tamanho da página não vai criar rolagem */
+    overflow-x: hidden;}
