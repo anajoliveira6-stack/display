@@ -5,7 +5,38 @@
         padding-bottom: 60px;
     }
 
-    .header{flex-direction: column;}
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 8px;
+        gap: 8px;}
+
+    /* 24px */
+    .header__title{font: 2.4rem;}
+
+    .nav__list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+        padding: 4px;
+    }
+
+    .nav__item{
+        flex: 1 1 calc(33.333% - 6px);
+        text-align: center;
+    }
+
+    .nav__link{
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 6px 4px;
+        display: block;
+        white-space: nowrap;
+    }
+
+    
 }
 
 
